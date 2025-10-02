@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Resume - Gabriel Angelo A. Tangente</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 40px auto;
+    max-width: 800px;
+    color: #222;
+    background: #fff;
+  }
+  .container {
+    padding: 0 20px;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .photo-resume {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 10px auto;
+    border: 1px solid #999;
+    display: block;
+  }
+  .photo-resume img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 28px;
+    margin: 0 0 10px 0;
+  }
+  .contact-bar {
+    background-color: #444;
+    color: #eee;
+    font-size: 14px;
+    padding: 6px 12px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .contact-bar span {
+    white-space: nowrap;
+  }
+  main {
+    display: grid;
+    grid-template-columns: 140px 3px 1fr;
+    gap: 0;
+    position: relative;
+  }
+  .vertical-line {
+    background-color: #444;
+    grid-column: 2;
+    grid-row: 1 / 999;
+  }
+  .section-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: right;
+    padding-right: 10px;
+    grid-column: 1;
+  }
+  .section-content {
+    font-size: 14px;
+    line-height: 1.5;
+    padding-left: 17px;
+    grid-column: 3;
+    margin-bottom: 30px;
+  }
+  .job-title {
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 2px;
+  }
+  .job-company {
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 6px;
+  }
+  .job-dates {
+    float: right;
+    font-weight: normal;
+    font-style: normal;
+  }
+  .graduated-in {
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 2px;
+  }
+  .school {
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 6px;
+  }
+  .graduated-date {
+    float: right;
+    font-weight: normal;
+    font-style: normal;
+  }
+  ul {
+    margin-top: 4px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+  }
+  ul li {
+    margin-bottom: 6px;
+  }
+  
+  @media (max-width: 600px) {
+    main {
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+    .vertical-line {
+      display: none;
+    }
+    .section-title {
+      text-align: left;
+      padding-right: 0;
+      padding-bottom: 5px;
+      border-bottom: 2px solid #444;
+      margin-bottom: 10px;
+    }
+    .section-content {
+      padding-left: 0;
+      margin-bottom: 20px;
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="resumepic.jpg" class="photo-resume"><img src="resumepic.jpg" alt="Photo" /></a>
+      <h1>Gabriel Angelo A. Tangente</h1>
+    </header>
+    <div class="contact-bar" role="contentinfo">
+      <span>Apartment #6 Nato 1 Pasong Buaya 2 Imus, Cavite</span>
+      <span>•</span>
+      <span>09452492224</span>
+      <span>•</span>
+      <span>tangente.gabriel1221@gmail.com</span>
+    </div>
+    <main>
+      <div class="vertical-line"></div>
+      
+      <div class="section-title">SUMMARY</div>
+      <div class="section-content">
+        <p>
+          Dynamic Game Developer with a strong background in web development at ATL Customs Brokerage. Expert in crafting engaging gameplay mechanics and responsive web designs. Proven ability to troubleshoot technical issues and enhance user experience. Passionate about project management and delivering high-quality results that captivate players and users alike.
+        </p>
+      </div>
+      
+      <div class="section-title">PROFESSIONAL<br />EXPERIENCE</div>
+      <div class="section-content">
+        <div>
+          <p class="job-title">I.T <span class="job-dates"><strong>Sep 2030 – 2036</strong></span></p>
+          <p class="job-company">ATL Customs Brokerage - Manila</p>
+          <ul>
+            <li>Developed responsive web designs using HTML, CSS, and JavaScript for various projects.</li>
+            <li>Maintained and updated existing websites to improve functionality and design consistency.</li>
+            <li>Assisted in troubleshooting and resolving technical issues related to web development tasks.</li>
+            <li>Debugged issues related to HTML, CSS and JS code in various browsers.</li>
+            <li>Designed dynamic navigation menus for websites by coding in HTML, CSS, and JavaScript.</li>
+          </ul>
+        </div>
+        <div>
+          <p class="job-title">Game Developer <span class="job-dates"><strong>Jun 2020 – Current</strong></span></p>
+          <p class="job-company">Self Employed via use of Roblox</p>
+          <ul>
+            <li>Designed and developed engaging gameplay mechanics for various gaming platforms.</li>
+            <li>Collaborated with artists to create immersive game environments and character models.</li>
+            <li>Reported progress and resolved problems to keep projects on schedule and within budget parameters.</li>
+            <li>Balanced and rebalanced gameplay around different factors to produce interesting, enjoyable flow with optimum risk and reward.</li>
+            <li>Organized thorough testing to verify playability against technical and user parameters.</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="section-title">EDUCATION</div>
+      <div class="section-content">
+        <p class="graduated-in">Bachelor of Science In Information Technology <span class="graduated-date"><strong>May 2029</strong></span></p>
+        <p class="school"><strong>Unida Christian Colleges, Anabu</strong></p>
+        <ul>
+          <li>Expert in Website Creating</li>
+          <li>Knows various coding languages such as Html, CSS, JavaScript, Python and Lua</li>
+          <li>Has experience in creating responsive web pages</li>
+          <li>High attention on details when it comes to designing web pages</li>
+        </ul>
+      </div>
+      
+      <div class="section-title">ADDITIONAL<br />SKILLS</div>
+      <div class="section-content">
+        <ul>
+          <li>Expert in Website Creating</li>
+          <li>Knows various coding languages such as Html, CSS, JavaScript, Python and Lua</li>
+          <li>Has experience in creating responsive web pages</li>
+          <li>High attention on details when it comes to designing web pages</li>
+        </ul>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
